@@ -11,18 +11,7 @@
   - [Prerequisites](#prerequisites)
   - [Repository Structure](#repository-structure)
   - [Installation](#installation)
-  - [Environment Variables](#environment-variables)
-  - [Running Locally](#running-locally)
-- [Usage](#usage)
-  - [User Flow](#user-flow)
-  - [API Endpoints (Backend)](#api-endpoints-backend)
-- [Deployment](#deployment
-- [Configuration & Customization](#configuration--customization)
-- [Screenshots](#screenshots)
-- [Roadmap & Future Improvements](#roadmap--future-improvements)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
+  - [Environment Variables]
 
 ---
 
@@ -56,8 +45,6 @@
    - Manage users, view statistics, moderate content, reset simulations, etc.
 10. **Automation & Integrations (Optional)**
     - Integration with Telegram bot or other channels to fetch portfolio updates or summaries.
-
-_Only include features you have implemented or plan to implement; remove or adjust as needed._
 
 ---
 
@@ -107,27 +94,7 @@ Provide a high-level description (and optionally a diagram) of how components in
    - Option A: Fetch from real crypto API at intervals, cache in backend (e.g., every minute).
    - Option B: Use historical data files or simulated generator.
 5. **Optional Components**  
-   - **Notifications Service**: push notifications or email.
-   - **Admin Panel**: separate frontend or protected routes.
-   - **Bot Integration**: a separate microservice or function (e.g., Telegram bot) calling backend APIs.
-
-You may embed a simple ASCII or Mermaid diagram in the README:
-
-```mermaid
-flowchart TD
-    Browser -->|HTTP requests| API_Server
-    API_Server -->|Queries/Updates| MongoDB
-    API_Server -->|Fetch price data| Price_API
-    subgraph Optional
-      API_Server --> Notifications
-      API_Server --> Admin_Panel
-      API_Server --> Telegram_Bot_Service
-    end
-
-Credits:
-
-<img src="https://learncodeonline.in/gitone.png" width=250 height=80 center="true" > 
+   - **Notifications Service**: push notifications or emails.
 
 
-#### _Deepak Singh Rajput C_
 
