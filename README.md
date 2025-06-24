@@ -7,11 +7,6 @@
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Architecture Overview](#architecture-overview)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Repository Structure](#repository-structure)
-  - [Installation](#installation)
-  - [Environment Variables]
 
 ---
 
