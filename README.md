@@ -4,7 +4,6 @@
 
 ## Table of Contents
 
-- [Demo](#demo)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Architecture Overview](#architecture-overview)
@@ -17,24 +16,13 @@
 - [Usage](#usage)
   - [User Flow](#user-flow)
   - [API Endpoints (Backend)](#api-endpoints-backend)
-- [Deployment](#deployment)
-- [Testing](#testing)
+- [Deployment](#deployment
 - [Configuration & Customization](#configuration--customization)
 - [Screenshots](#screenshots)
 - [Roadmap & Future Improvements](#roadmap--future-improvements)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
-
----
-
-## Demo
-
-> **Live Demo URL (if available):**  
-> - Frontend: `https://your-frontend-domain.com`  
-> - Backend API: `https://api.your-domain.com`  
-
-Include a link or note here once you deploy, or remove if not deployed publicly.
 
 ---
 
@@ -136,7 +124,7 @@ flowchart TD
       API_Server --> Telegram_Bot_Service
     end
 
-Credis:
+Credits:
 
 <img src="https://learncodeonline.in/gitone.png" width=250 height=80 center="true" > 
 
